@@ -11,7 +11,7 @@ const StyleDiv = styled.div`
 
 
 export default function Home() {
-  let num = 4
+  let num = 8
   const [newBoard, setNewBoard] = useState()
   const [initial, setInitial] = useState(num)
   const [flag, setFlag] = useState(false)

@@ -25,7 +25,8 @@ const Color = styled.div`
 `
 
 export const MakeBoard = ({number, setNumber}) => {
-  console.log(number, 'number')
+  //set i < to number squared
+  //need to fix every other box for offsetting colors
   const [newBoard, setNewBoard] = useState()
 
   const createBoard = () => {

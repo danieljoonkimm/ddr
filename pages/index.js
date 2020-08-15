@@ -26,7 +26,7 @@ export default function Home() {
     for(var i=0; i< initial; i++) {
         matrix[i] = [];
         for(var j=0; j< initial; j++) {
-        matrix[i][j] = <div style={{'backgroundColor': (j%2 === 0 && i % 2 === 0) ? 'black' : (j%2 !== 0 && i% 2 !==0) ? 'black' : 'red'}}
+        matrix[i][j] = <div style={{'backgroundColor': (j%2 === 0 && i % 2 === 0) ? 'black' : (j%2 !== 0 && i% 2 !==0) ? 'black' : 'white'}}
         >{j}
         </div>;
         }

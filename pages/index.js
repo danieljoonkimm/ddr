@@ -40,7 +40,7 @@ export default function Home() {
         <form onSubmit={e => e.preventDefault(), () => setFlag(c => !c)}>
   
         <input type='number' onChange={e => setInitial(e.target.value)}></input>
-        <button type='submit'></button>
+        <button type='submit' style={{'display': 'none'}}></button>
         </form>
         {newBoard === undefined ? 'loading' : <div>{newBoard.map((arr, index) => <StyleDiv index={index} length={arr.length}>{arr}</StyleDiv>)}</div>}
       </div>
